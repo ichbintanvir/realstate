@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Buy"
+    },
+    {
+        "id": 2,
+        "name": "Sell"
+    },
+    {
+        "id": 3,
+        "name": "Renovation & construction"
+    },
+    {
+        "id": 4,
+        "name": "Rental"
+    },
+    {
+        "id": 5,
+        "name": "Shared ownership"
+    },
+    {
+        "id": 6,
+        "name": "Islamic finance"
+    }
+]
