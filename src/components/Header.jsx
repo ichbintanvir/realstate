@@ -20,7 +20,7 @@ const Header = () => {
             {/* <div className='bg-[#18181B] h-[104px]'> */}
             <nav className='container mx-auto grid grid-cols-3 items-center py-[24px] px-[16px]'>
                 <img src={navlogo} alt="" />
-                <ul className={`bg-[#18181B] w-full flex flex-col md:flex-row justify-end col-span-2 sm:row-start-2 md:row-start-1 md:col-start-2 absolute md:static duration-500 ease-in left-0 px-5 ${!open ? ' top-[-250px] ml-0' : 'top-[100px]'}`}>
+                <ul className={`bg-[#18181B] w-full flex flex-col md:flex-row justify-end col-span-2 row-start-2 md:row-start-1 md:col-start-2 absolute md:static duration-500 ease-in left-0 py-5 px-5 ${!open ? ' top-[-250px]' : 'top-[100px]'}`}>
                     {
                         data.map(eachData => <Navlink key={eachData.id} eachData={eachData} />)
                     }
