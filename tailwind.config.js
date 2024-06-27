@@ -10,7 +10,14 @@ export default {
       'cinzel': ["Cinzel", "sans-serif"],
       'pluse': ["Plus Jakarta Sans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'contactBG': "url('/src/img/contactBG.png')",
+      },
+      colors: {
+        customBlack: 'rgb(0,0,0,.3)'
+      }
+    },
   },
   plugins: [],
 }
