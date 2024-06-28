@@ -3,6 +3,7 @@ import Footer from "./components/Footer"
 import Contactus from "./components/Contactus"
 import Poster from "./components/Poster"
 import Poster2 from "./components/Poster2"
+import Rencon from "./components/Rencon"
 
 // import lr1 from '/img/lr1.png'
 
@@ -26,6 +27,7 @@ function App() {
       <Poster title={info[0].title} information={info[0].information} src={info[0].src} />
       <Poster2 />
       <Poster title={info[1].title} information={info[1].information} src={info[1].src} />
+      <Rencon />
       <Contactus />
       <Footer />
     </>

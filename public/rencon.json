@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "img": "/img/rc1.png",
+        "title": "selection & property management"
+    },
+    {
+        "id": 2,
+        "img": "/img/rc2.png",
+        "title": "fixing and installation of furnace"
+    },
+    {
+        "id": 3,
+        "img": "/img/rc3.png",
+        "title": "all kind of plumbing"
+    },
+    {
+        "id": 4,
+        "img": "/img/rc4.png",
+        "title": "bathroom renovation"
+    },
+    {
+        "id": 5,
+        "img": "/img/rc5.png",
+        "title": "kitchen renovation"
+    },
+    {
+        "id": 6,
+        "img": "/img/rc6.png",
+        "title": "roofing"
+    },
+    {
+        "id": 7,
+        "img": "/img/rc7.png",
+        "title": "painting"
+    },
+    {
+        "id": 8,
+        "img": "/img/rc8.png",
+        "title": "fix gutter"
+    },
+    {
+        "id": 9,
+        "img": "/img/rc9.png",
+        "title": "fix siding"
+    },
+    {
+        "id": 10,
+        "img": "/img/rc10.png",
+        "title": "chimney fixing and cleaning"
+    },
+    {
+        "id": 11,
+        "img": "/img/rc11.png",
+        "title": "floring"
+    },
+    {
+        "id": 12,
+        "img": "/img/rc12.png",
+        "title": "drywall repair"
+    },
+    {
+        "id": 13,
+        "img": "/img/rc13.png",
+        "title": "junk removal"
+    },
+    {
+        "id": 14,
+        "img": "/img/rc14.png",
+        "title": "fix all kind of electric problems"
+    },
+    {
+        "id": 15,
+        "img": "/img/rc15.png",
+        "title": "fix central acs"
+    }
+]
