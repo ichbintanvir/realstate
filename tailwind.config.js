@@ -12,7 +12,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'contactBG': "url('/src/img/contactBG.png')",
+        'contactBG': "url('/img/contactBG.png')",
       },
       colors: {
         customBlack: 'rgb(0,0,0,.3)'

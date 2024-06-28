@@ -1,6 +1,6 @@
 // import navlogo from '../img/navlogo'
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaPhoneAlt } from 'react-icons/fa';
-import navlogo from '../img/navlogo.png'
+import navlogo from '/img/navlogo.png'
 import { TiMessage } from 'react-icons/ti';
 const Footer = () => {
     return (

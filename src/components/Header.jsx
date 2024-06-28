@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import navlogo from '../img/navlogo.png'
+import navlogo from '/img/navlogo.png'
 import { useState } from 'react';
 import Navlink from '../child-component/Navlink';
 import { MdClose } from 'react-icons/md';
