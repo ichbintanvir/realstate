@@ -9,13 +9,16 @@ export default {
       'outfit': ['Outfit', 'sans-serif'],
       'cinzel': ["Cinzel", "sans-serif"],
       'pluse': ["Plus Jakarta Sans", "sans-serif"],
+      'bangla': ["Noto Sans", "sans-serif"],
     },
     extend: {
       backgroundImage: {
+        'heroBG': "url('/img/bg1.png')",
         'contactBG': "url('/img/contactBG.png')",
       },
       colors: {
-        customBlack: 'rgb(0,0,0,.3)'
+        customBlack: 'rgb(0,0,0,.3)',
+        customBlack2: 'rgb(0,0,0,.5)',
       }
     },
   },
