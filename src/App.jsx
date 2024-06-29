@@ -7,6 +7,7 @@ import Rencon from "./components/Rencon"
 import Hero from "./components/Hero"
 import Gallary from "./components/Gallary"
 import Sell from "./components/Sell"
+import Property from "./components/Property"
 
 // import lr1 from '/img/lr1.png'
 
@@ -30,6 +31,9 @@ function App() {
       <Hero />
       <Sell />
       <Gallary />
+      <Property name='buy' color='false' />
+      <Property name='sell' color='true' />
+      <Property name='rent' color='false' />
       <Poster title={info[0].title} information={info[0].information} src={info[0].src} />
       <Poster2 />
       <Poster title={info[1].title} information={info[1].information} src={info[1].src} />
