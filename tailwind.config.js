@@ -15,13 +15,18 @@ export default {
       backgroundImage: {
         'heroBG': "url('/img/bg1.png')",
         'contactBG': "url('/img/contactBG.png')",
+        'home2': "url('/img/projectGallary/pg8.png')",
       },
       colors: {
         customBlack: 'rgb(0,0,0,.3)',
         customBlack2: 'rgb(0,0,0,.5)',
+        customBlack3: 'rgb(0,0,0,.6)',
+        btnBG: 'rgb(211, 125, 12, 0.2)',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }
 

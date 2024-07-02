@@ -1,26 +1,32 @@
 [
     {
         "id": 1,
-        "name": "Buy"
+        "name": "Buy",
+        "path": "/buy"
     },
     {
         "id": 2,
-        "name": "Sell"
+        "name": "Sell",
+        "path": "/sell"
     },
     {
         "id": 3,
-        "name": "Renovation & construction"
+        "name": "Renovation & construction",
+        "path": "/reac"
     },
     {
         "id": 4,
-        "name": "Rental"
+        "name": "Rental",
+        "path": "/rent"
     },
     {
         "id": 5,
-        "name": "Shared ownership"
+        "name": "Shared ownership",
+        "path": "/ownership"
     },
     {
         "id": 6,
-        "name": "Islamic finance"
+        "name": "Islamic finance",
+        "path": "/islamic-finance"
     }
 ]

@@ -50,7 +50,7 @@
         "price": "7,625",
         "bed": 3,
         "bathroom": 1,
-        "img": "/img/projectGallary/pg1.png",
+        "img": "/img/projectGallary/pg2.png",
         "info": "This property is mostly wooded and sits high on a hilltop overlooking the Mohawk..."
     },
     {
@@ -59,7 +59,7 @@
         "price": "7,625",
         "bed": 3,
         "bathroom": 1,
-        "img": "/img/projectGallary/pg2.png",
+        "img": "/img/projectGallary/pg3.png",
         "info": "This property is mostly wooded and sits high on a hilltop overlooking the Mohawk..."
     },
     {
@@ -68,7 +68,7 @@
         "price": "7,625",
         "bed": 3,
         "bathroom": 1,
-        "img": "/img/projectGallary/pg3.png",
+        "img": "/img/projectGallary/pg4.png",
         "info": "This property is mostly wooded and sits high on a hilltop overlooking the Mohawk..."
     },
     {
@@ -77,7 +77,7 @@
         "price": "7,625",
         "bed": 3,
         "bathroom": 1,
-        "img": "/img/projectGallary/pg4.png",
+        "img": "/img/projectGallary/pg5.png",
         "info": "This property is mostly wooded and sits high on a hilltop overlooking the Mohawk..."
     },
     {
@@ -86,7 +86,7 @@
         "price": "7,625",
         "bed": 3,
         "bathroom": 1,
-        "img": "/img/projectGallary/pg5.png",
+        "img": "/img/projectGallary/pg6.png",
         "info": "This property is mostly wooded and sits high on a hilltop overlooking the Mohawk..."
     },
     {
@@ -95,20 +95,11 @@
         "price": "7,625",
         "bed": 3,
         "bathroom": 1,
-        "img": "/img/projectGallary/pg6.png",
-        "info": "This property is mostly wooded and sits high on a hilltop overlooking the Mohawk..."
-    },
-    {
-        "id": 12,
-        "title": "Luxury House",
-        "price": "7,625",
-        "bed": 3,
-        "bathroom": 1,
         "img": "/img/projectGallary/pg7.png",
         "info": "This property is mostly wooded and sits high on a hilltop overlooking the Mohawk..."
     },
     {
-        "id": 13,
+        "id": 12,
         "title": "Luxury House",
         "price": "7,625",
         "bed": 3,

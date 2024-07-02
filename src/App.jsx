@@ -1,45 +1,67 @@
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import { RouterProvider, createBrowserRouter } from "react-router-dom"
+import Main from "./layout/Main"
+import Home from "./pages/Home"
+import Reac from "./pages/Reac"
+import Buy from "./pages/Buy"
+import Rent from "./pages/Rent"
+import PropertyManagement from "./pages/PropertyManagement"
+import Ownership from "./pages/Ownership"
+import IslamicFinance from "./pages/IslamicFinance"
 import Contactus from "./components/Contactus"
-import Poster from "./components/Poster"
-import Poster2 from "./components/Poster2"
-import Rencon from "./components/Rencon"
-import Hero from "./components/Hero"
-import Gallary from "./components/Gallary"
-import Sell from "./components/Sell"
-import Property from "./components/Property"
-
-// import lr1 from '/img/lr1.png'
-
-const info = [
-  {
-    "title": 'PROPERTY MANAGEMENT',
-    "src": '/img/lr1.png',
-    "information": "Property management is the daily oversight of residential, commercial, or industrial real estate by a third-party contractor. Generally, property managers take responsibility for day-to-day repairs and ongoing maintenance, security, and upkeep of properties."
-  },
-  {
-    "title": 'Islamic finance',
-    "src": '/img/lr3.png',
-    "information": "Islamic finance is a way to manage money that keeps within the moral principles of Islam . It covers things like saving, investing, and borrowing to buy a home. The moral principles many Muslims live their lives by are sometimes known as the 'Shari'ah'"
-  }
-]
+import Sellpage from "./pages/Sellpage"
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Main />,
+      children: [
+        {
+          path: '/',
+          element: <Home />
+        },
+        {
+          path: '/home',
+          element: <Home />
+        },
+        {
+          path: '/reac',
+          element: <Reac />
+        },
+        {
+          path: '/contactus',
+          element: <Contactus />
+        },
+        {
+          path: '/buy',
+          element: <Buy />
+        },
+        {
+          path: '/sell',
+          element: <Sellpage />
+        },
+        {
+          path: '/rent',
+          element: <Rent />
+        },
+        {
+          path: '/pm',
+          element: <PropertyManagement />
+        },
+        {
+          path: '/ownership',
+          element: <Ownership />
+        },
+        {
+          path: '/islamic-finance',
+          element: <IslamicFinance />
+        }
+      ]
+    }
+  ])
   return (
     <>
-      <Header />
-      <Hero />
-      <Sell />
-      <Gallary />
-      <Property name='buy' color='false' />
-      <Property name='sell' color='true' />
-      <Property name='rent' color='false' />
-      <Poster title={info[0].title} information={info[0].information} src={info[0].src} />
-      <Poster2 />
-      <Poster title={info[1].title} information={info[1].information} src={info[1].src} />
-      <Rencon />
-      <Contactus />
-      <Footer />
+      <RouterProvider router={router}></RouterProvider>
     </>
   )
 }

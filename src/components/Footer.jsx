@@ -2,11 +2,12 @@
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaPhoneAlt } from 'react-icons/fa';
 import navlogo from '/img/navlogo.png'
 import { TiMessage } from 'react-icons/ti';
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='bg-[#18181B] text-white'>
             <section className="container mx-auto">
-                <section className='grid md:grid-cols-3 grid-cols-1 px-[16px] pt-[80px] gap-[40px]'>
+                <section className='grid grid-cols-1 md:grid-cols-3 px-[16px] pt-[80px] pb-[40px] md:pb-[60px] gap-[40px]'>
                     <div className=''>
                         <img src={navlogo} alt="" />
                         <div className='mt-[20px] flex gap-[18px]'>
@@ -25,8 +26,8 @@ const Footer = () => {
                         <div>
                             <h1 className='font-outfit text-[18px] md:text-[20px] font-[700]'>Company</h1>
                             <ul className='font-outfit text-[16px] font-[600] text-white mt-[24px] flex flex-col gap-[20px]'>
-                                <li>Home</li>
-                                <li>Projects</li>
+                                <li><Link to='/home'>Home</Link></li>
+                                <li><Link to='pm'>Projects</Link></li>
                                 <li>About Us</li>
                                 <li>Blog</li>
                             </ul>
@@ -51,7 +52,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </section>
-                <section className='grid grid-cols-1 md:grid-cols-2 items-center pt-[40px] pb-[80px] border-t-2 border-zinc-300 my-[60px] px-[16px]'>
+                <section className='grid grid-cols-1 md:grid-cols-2 items-center pt-[40px] pb-[80px] border-t-2 border-zinc-300 space-y-[60px] px-[16px]'>
                     <div className='grid grid-cols-3'>
                         <div className='flex gap-[12px] items-center'>
                             <span className='border border-white p-[10px] md:p-[12px] rounded-full'>
