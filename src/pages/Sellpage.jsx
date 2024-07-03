@@ -1,8 +1,11 @@
+import Form from "../components/Form";
+import Hero2 from "../components/Hero2";
 
 const Sellpage = () => {
     return (
         <div>
-            <h1>this is sell page</h1>
+            <Hero2 name="sell house" />
+            <Form />
         </div>
     )
 };
